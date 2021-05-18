@@ -1268,6 +1268,7 @@ Game.Launch=function()
 		Game.cookiesPsRaw=0;//raw cookies per second
 		Game.cookiesPsRawHighest=0;//highest raw cookies per second this ascension
 		Game.cookiesReset=0;//cookies lost to resetting (used to determine prestige and heavenly chips)
+		Game.RuinTheFun();
 		Game.cookieClicks=0;//+1 for each click on the cookie
 		Game.goldenClicks=0;//+1 for each golden cookie clicked (all time)
 		Game.goldenClicksLocal=0;//+1 for each golden cookie clicked (this game only)
