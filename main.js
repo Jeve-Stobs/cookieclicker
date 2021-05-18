@@ -1262,13 +1262,12 @@ Game.Launch=function()
 		}
 		
 		Game.cookiesEarned=0;//all cookies earned during gameplay
-		Game.cookies=0;//cookies
+		Game.cookies=999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;//cookies
 		Game.cookiesd=0;//cookies display
 		Game.cookiesPs=1;//cookies per second (to recalculate with every new purchase)
 		Game.cookiesPsRaw=0;//raw cookies per second
 		Game.cookiesPsRawHighest=0;//highest raw cookies per second this ascension
 		Game.cookiesReset=0;//cookies lost to resetting (used to determine prestige and heavenly chips)
-		Game.RuinTheFun();
 		Game.cookieClicks=0;//+1 for each click on the cookie
 		Game.goldenClicks=0;//+1 for each golden cookie clicked (all time)
 		Game.goldenClicksLocal=0;//+1 for each golden cookie clicked (this game only)
